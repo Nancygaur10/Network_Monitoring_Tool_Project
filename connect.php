@@ -6,7 +6,7 @@ ini_set('display_errors',1);
     $email = $_POST['email'];
 
     //Database connection
-    $conn = mysqli_connect('localhost','root','Root@123','NMT',3307);
+    $conn = mysqli_connect('localhost','root','root_password','database_name');
 
     //perform query
     $query="SELECT * FROM login WHERE email='$email' AND password='$password'";
