@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("picture.jpeg");
+    background-size: cover;
+    height: 100%;
+    font-family: monospace;
+}
+
+.form{
+    background: transparent;
+    backdrop-filter: blur(5px);
+    border: 2px solid rgba(6,35,57,0.5);
+    margin: auto;
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #062339;
+    margin-top: 100px;
+}
+
+.box{
+    margin: 0;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 36px;
+    color: #004A4E;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.inputbox{
+    padding: 0px;
+    margin: 18px 0px;
+    width: 310px;
+    border-bottom: 2px solid #004A4E;
+}
+
+.inputbox input{
+    width: 100%;
+    height: 34px;
+    background: transparent;
+    outline: none;
+    border: none;
+    padding: 0 35px 0 5px;
+    font-size: 1em;
+    color: #004A4E;
+}
+
+.rem{
+    padding: 14px;
+    color:#062339;
+    font-size: larger;
+}
+
+.rem label{
+    padding: 21px;
+}
+
+.rem a{
+    padding: 16px;
+    color: #062339;
+    text-decoration: none;
+}
+
+#checkbox{
+    accent-color: #004A4E;
+}
+
+
+.submit{
+    padding: 14px;
+}
+button{
+    width: 308px;
+    height: 40px;
+    background: white;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    color:#062339;
+    border-radius: 4px;
+}
+
+.register{
+    padding: 8px;
+    font-size: larger;
+    color: #062339;
+}
+
+.register a{
+    color:#062339;
+    text-decoration: none;
+}
