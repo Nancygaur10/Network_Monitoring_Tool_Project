@@ -16,7 +16,7 @@ A web-based network monitoring tool that captures real-time network traffic, ana
 ✔️ User-friendly web dashboard (HTML, CSS, PHP)  
 ✔️ Packet capture (TCPDump)  
 ✔️ Role-based access control (Authentication & Authorization)  
-✔️ Data filtering 
+✔️ Data filtering  
 ✔️ Automated packet classification using `packet.sh` script  
 ✔️ Deployed on Apache (Linux Server)  
 
