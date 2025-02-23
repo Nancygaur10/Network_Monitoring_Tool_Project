@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="protocol.css">
+</head>
+<body>
+    <form class="form" method="POST" action="protocol.php">
+    <div class="box">
+    	<div class="packets-box">
+        <input type="radio" name="packet" value="ARP" id="arp" required> 
+        <label>ARP</label> 
+        <div>
+        <select name="arp-fields">
+        	<option value="Select">---Select---</option>
+        	<option value="TimeStamp">TimeStamp</option>
+        	<option value="SourceIP">SourceIP</option>
+        	<option value="DestinationIP">DestinationIP</option>
+        	<option value="SourceMAC">SourceMAC</option>
+        	<option value="DestinationMAC">DestinationMAC</option>
+        	<option value="ProtocolLength">ProtocolLength</option>
+        	<option value="All">All</option>
+        </select>
+        </div></div>
+        
+        <div class="packets-box">
+        <input type="radio" name="packet" value="UDP" id="udp" required> 
+        <label for="">UDP</label> 
+        <div>
+        <select name="udp-fields">
+        	<option value="Select">---Select---</option>
+        	<option value="TimeStamp">TimeStamp</option>
+        	<option value="SourceIP">SourceIP</option>
+		<option value="SourcePort">SourcePort</option>
+        	<option value="DestinationIP">DestinationIP</option>
+		<option value="DestinationPort">DestinationPort</option>
+        	<option value="SourceMAC">SourceMAC</option>
+        	<option value="DestinationMAC">DestinationMAC</option>
+        	<option value="ProtocolLength">ProtocolLength</option>
+        	<option value="All">All</option>
+        </select>
+        </div></div>
+        
+        <div class="packets-box">
+        <input type="radio" name="packet" value="TCP" id="tcp" required> 
+        <label for="">TCP</label> 
+        <div>
+        <select name="tcp-fields">
+        	<option value="Select">---Select---</option>
+        	<option value="TimeStamp">TimeStamp</option>
+        	<option value="SourceIP">SourceIP</option>
+        	<option value="SourcePort">SourcePort</option>
+		<option value="DestinationIP">DestinationIP</option>
+		<option value="DestinationPort">DestinationPort</option>
+        	<option value="SourceMAC">SourceMAC</option>
+        	<option value="DestinationMAC">DestinationMAC</option>
+        	<option value="ProtocolLength">ProtocolLength</option>
+        	<option value="All">All</option>
+        </select>
+        </div></div>
+        
+        <div class="submit">
+        <button type="submit" name="submit">Submit</button>
+        </div>
+       
+    </div>
+    </form>
+</body>
+</html>

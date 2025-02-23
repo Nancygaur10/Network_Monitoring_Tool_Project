@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("picture.jpeg");
+    background-size: cover;
+    height: 100%;
+    font-family: monospace;
+}
+
+.form{
+    background: transparent;
+    backdrop-filter: blur(5px);
+    border: 2px solid rgba(6,35,57,0.5);
+    margin: auto;
+    height: 267px;
+    width: 376px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #062339;
+    margin-top: 164px;
+}
+
+.box{
+   padding: 27px;   
+   justify-items: center;
+}
+
+.packets-box{
+   padding: 10px;
+   display: flex;
+   color: #004A4E;
+   font-weight: bolder;
+   text-transform: uppercase;
+   font-size: 16px;
+   justify-items: center;
+}
+
+select{
+   width: 34vh;
+   margin-left: 72px;
+   border-radius: 10px;
+   height: 4vh;
+}
+
+.submit{
+    padding: 24px;
+}
+button{
+    width: 214px;
+    height: 34px;
+    background: white;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    color:#004A4E;
+    border-radius: 4px;
+}
+
+label{
+    padding: 5px;
+}
